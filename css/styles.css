@@ -474,12 +474,17 @@ img {
 }
 
 .footer-input {
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
   width: 264px;
   height: 40px;
   border: 1px solid var(--background-color);
   border-radius: 4px;
   background-color: transparent;
   color: var(--background-color);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 .footer-input::placeholder {
   font-size: 12px;
@@ -829,10 +834,12 @@ img {
 .modal-input:focus + .icon-modals {
   fill: var(--accent-color);
 }
+.modal-area {
+  margin-bottom: 16px;
+}
 
 .modal-wrap {
   position: relative;
-  margin-bottom: 16px;
 }
 .icon-modals {
   position: absolute;
