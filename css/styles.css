@@ -903,7 +903,6 @@ img {
   margin-top: 24px;
 }
 .btn-send {
-  display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -912,6 +911,7 @@ img {
   background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  display: block;
   display: flex;
   align-items: center;
   justify-content: center;
