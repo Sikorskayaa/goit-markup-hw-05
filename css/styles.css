@@ -903,6 +903,7 @@ img {
   margin-top: 24px;
 }
 .btn-send {
+  display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -916,7 +917,10 @@ img {
   justify-content: center;
   cursor: pointer;
   min-width: 169px;
+  height: 56px;
   padding: 16px 32px;
   margin: auto;
   margin-bottom: 24px;
+  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
